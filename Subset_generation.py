@@ -2,7 +2,7 @@ def subset(nums):
     ans = []
     curr = []
     i = 0
-
+    
     def gen(i,curr,ans,nums):
         if i == len(nums):
             ans.append(curr[:]) #can use curr.copy()
