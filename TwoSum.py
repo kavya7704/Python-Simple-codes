@@ -1,4 +1,4 @@
-#optimal using dict
+#using dict
 def two(nums,t):
         d = {}# SC - O(N)
         n = len(nums)
