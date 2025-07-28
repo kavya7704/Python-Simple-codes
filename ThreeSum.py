@@ -1,4 +1,3 @@
-#optimal
 def three_Sum(nums):
     n = len(nums)
     triplet_Sum = set()
