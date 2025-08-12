@@ -1,4 +1,4 @@
-def minWindow(s: str, t: str) -> str:
+def minWindow(s, t):
     if not s or not t:
         return ""
 
@@ -6,9 +6,9 @@ def minWindow(s: str, t: str) -> str:
     have = [0] * 128
     
     for ch in t:
-        need[ord(ch)] += 1  # Store frequency needed
+        need[ord(ch)] += 1  
     
-    required = len(t)  # Total chars needed
+    required = len(t)  
     left = 0
     min_len = float("inf")
     min_start = 0
