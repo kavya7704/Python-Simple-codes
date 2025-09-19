@@ -1,4 +1,3 @@
-
 def substring(s):
     arr = []
     curr = ""
@@ -20,6 +19,6 @@ def substring(s):
             
     return count
     
-s = "abc123cd45ef67gh8"
+s = "input()" #abc123cd45ef67gh8
 
-print(substring(s))
+print(substring(s)) #3
